@@ -1,0 +1,12 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "current" // 根据当前节点版本进行编译
+                }
+            }
+        ]
+    ]
+}
